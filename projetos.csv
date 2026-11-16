@@ -1,21 +1,21 @@
 ﻿id,categoria,projeto,atividade,responsaveis,inicio,fim,progresso,status,atuacao
-1,Ensino,Especialização 2027.1,Planejamento e organização,André;Bruno;Gustavo;Rodrigo,2026-12-01,2027-06-30,0,Em andamento,Supervisão
-2,Ensino,Cursos de Capacitação,Preparação dos cursos,Bruno;Rodrigo,2027-01-05,2027-04-30,0,Em andamento,Execução
+1,Ensino,Especialização 2027.1,Planejamento e organização,André;Bruno;Gustavo;Rodrigo,2026-12-01,2027-06-30,0,Em andamento,Execução
+2,Ensino,Cursos de Capacitação,Preparação dos cursos,Bruno;Rodrigo,2027-01-05,2027-04-30,0,Em andamento,Supervisão
 3,Ensino,EPAGRI In company,Execução e encerramento,André;Gustavo,2026-09-01,2026-12-15,90,Em andamento,Supervisão
-4,P&D,AquaSmart 1.0,Desenvolvimento e entregas,André;Bruno;Rodrigo,2026-05-01,2026-12-31,87,Em andamento,Execução
+4,P&D,AquaSmart 1.0,Desenvolvimento e entregas,André;Bruno;Rodrigo,2026-05-01,2026-12-31,87,Em andamento,Supervisão
 5,P&D,Missão Pampulha,Organização e aquisição de dados,Bruno;Gustavo;Rodrigo,2026-07-01,2027-06-30,5,Em andamento,Supervisão
-6,P&D,AquaSmart 2.0,Planejamento e execução,André;Bruno;Gustavo;Rodrigo,2026-07-01,2027-06-30,0,Planejado,Execução
+6,P&D,AquaSmart 2.0,Planejamento e execução,André;Bruno;Gustavo;Rodrigo,2026-07-01,2027-06-30,0,Planejado,Supervisão
 7,P&D,COPASA,,Bruno;Gustavo,2027-07-01,2030-12-01,,Em andamento,Supervisão
-8,Fundações,CRIEC | Chamada 05/2025,Preparação da proposta,André;Bruno,2026-11-01,2027-02-28,0,Em andamento,Execução
+8,Fundações,CRIEC | Chamada 05/2025,Preparação da proposta,André;Bruno,2026-11-01,2027-02-28,0,Em andamento,Supervisão
 9,CNPq,ChileMéxico,,Bruno;Gustavo,2027-01-01,2028-12-31,,Em andamento,Supervisão
-10,CNPq,Demanda Universal,,Bruno;Gustavo,2027-01-01,2029-12-31,,Em andamento,Execução
-11,CNPq,ERC–CNPq | Chamada 13/2025,,Bruno;Gustavo;André,2026-07-01,2027-12-31,,Em andamento,Supervisão
-12,CNPq,CNPQ - Biofilme,,Bruno;Gustavo,2025-07-01,2027-12-31,,Em andamento,Execução
+10,CNPq,Demanda Universal,,Bruno;Gustavo,2027-01-01,2029-12-31,,Em andamento,Supervisão
+11,CNPq,ERC–CNPq | Chamada 13/2025,,Bruno;Gustavo;André,2026-07-01,2027-12-31,,Em andamento,Execução
+12,CNPq,CNPQ - Biofilme,,Bruno;Gustavo,2025-07-01,2027-12-31,,Em andamento,Supervisão
 13,CNPq,BRIC-STI 1,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2030-01-01,,Submetido,Supervisão
-14,CNPq,BRIC-STI 2,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2030-01-01,,Submetido,Execução
-15,CNPq,ERC–CNPq,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2028-01-01,,Submetido,Supervisão
-16,CAPES,Probal,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2030-01-01,,Submetido,Execução
+14,CNPq,BRIC-STI 2,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2030-01-01,,Submetido,Supervisão
+15,CNPq,ERC–CNPq,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2028-01-01,,Submetido,Execução
+16,CAPES,Probal,,Bruno;Gustavo;André;Rodrigo,2027-01-01,2030-01-01,,Submetido,Supervisão
 17,Prospecção,GIZ PBH Capão,Prospecção,Bruno;Rodrigo,2026-10-01,2026-12-31,0,Em análise,Supervisão
-18,Prospecção,CEMIG - Tecnologias para Eficiência,Prospecção,André;Gustavo,2026-11-01,2027-02-28,0,Em análise,Execução
+18,Prospecção,CEMIG - Tecnologias para Eficiência,Prospecção,André;Gustavo,2026-11-01,2027-02-28,0,Em análise,Supervisão
 19,Prospecção,SABESP,Prospecção,Bruno;Gustavo,2026-11-01,2027-02-28,0,Em análise,Supervisão
 20,Prospecção,Inovvo,Prospecção,André;Rodrigo,2026-11-01,2027-02-28,0,Em análise,Execução

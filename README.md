@@ -60,3 +60,7 @@ CSV recebido do usuário com 20 projetos. Codificação convertida de Windows-12
 ## Atualização de novembro de 2026
 
 CSV recebido do usuário com 20 projetos. Codificação convertida de Windows-1252 e grafias como `MissÃ£o` corrigidas. Datas originalmente em formato americano M/D/AAAA foram convertidas para ISO. Adicionada coluna `atuacao` com os valores Supervisão e Execução, exibidos na lista, nos detalhes e como filtro. Progresso em branco permanece sem informação em vez de ser convertido em 0%.
+
+## Formatos de data aceitos (v3)
+
+O CSV publicado em `data/projetos.csv` usa datas ISO `AAAA-MM-DD`. Na importação manual, a interface também aceita datas exportadas por Excel em padrão americano `MM/DD/AAAA` (mês/dia/ano), por exemplo `12/1/2026` → `2026-12-01`. Datas impossíveis são rejeitadas e os valores importados são normalizados para ISO ao exportar. A interface contém um único filtro **Atuação**.
