@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1824" />
+  <title>HydroUAI | Gestão de Projetos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><div class="brand-icon">H<span>↗</span></div><div><div class="eyebrow">HYDROUAI / WORKSPACE</div><h1>Gestão de projetos</h1></div></div>
+      <div class="top-actions"><span class="data-status" id="dataStatus">Carregando CSV...</span><label class="upload button secondary" for="csvUpload">↑ Importar CSV</label><input type="file" id="csvUpload" accept=".csv,text/csv" hidden /><button class="button primary" id="downloadBtn">↓ Exportar CSV</button></div>
+    </header>
+    <main>
+      <section class="intro"><div><span class="section-kicker">VISÃO GERAL</span><h2>Portfólio e cronograma</h2><p>Acompanhe atividades, atuações, responsáveis e prazos em uma única linha do tempo.</p></div><div class="today-label" id="todayLabel"></div></section>
+      <section class="stats" id="stats"></section>
+      <section class="workspace">
+        <div class="toolbar">
+          <div class="filters"><label class="search-wrap"><span>⌕</span><input id="searchInput" placeholder="Buscar projeto ou atividade..." aria-label="Buscar projetos" /></label><select id="personFilter" aria-label="Filtrar responsável"><option value="">Todos os responsáveis</option></select><select id="categoryFilter" aria-label="Filtrar categoria"><option value="">Todas as categorias</option></select><select id="statusFilter" aria-label="Filtrar status"><option value="">Todos os status</option></select><select id="atuacaoFilter" aria-label="Filtrar atuação"><option value="">Todas as atuações</option></select><select id="atuacaoFilter" aria-label="Filtrar atuação"><option value="">Todas as atuações</option></select></div>
+          <div class="view-actions"><div class="segmented"><button id="monthView" class="active">Meses</button><button id="weekView">Semanas</button></div><button id="todayBtn" class="button small">Hoje</button></div>
+        </div>
+        <div class="gantt-layout"><div class="sidebar"><div class="list-header"><span>PROJETOS / ATIVIDADES</span><span>PROGRESSO</span></div><div id="projectRows" class="project-rows"></div></div><div class="timeline-viewport" id="timelineViewport"><div id="timelineInner" class="timeline-inner"><div id="timelineHeader" class="timeline-header"></div><div id="timelineBody" class="timeline-body"></div></div></div></div>
+        <footer class="workspace-footer"><span><i class="legend-dot blue"></i> P&D <i class="legend-dot green"></i> Ensino <i class="legend-dot amber"></i> Prospecção <i class="legend-dot violet"></i> Outros</span><span>Selecione uma barra para ver os detalhes · Arraste horizontalmente para navegar</span></footer>
+      </section>
+      <p class="footer-note">Dados carregados de data/projetos.csv. Altere e publique esse arquivo no GitHub para atualizar a visualização.</p>
+    </main>
+  </div>
+  <dialog id="detailDialog"><form method="dialog"><button class="dialog-close" aria-label="Fechar">×</button></form><div id="detailContent"></div></dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>
